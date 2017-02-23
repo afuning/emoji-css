@@ -1,0 +1,186 @@
+/*wink*/
+.eyebrows {
+  position: relative;
+  height: 92px;
+}
+.eyebrow {
+  position: absolute;
+  overflow: hidden;
+  width: 50px;
+  height: 30px;
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.eyebrow_140 {
+  top: 60px;
+  left: 25px;
+  -moz-transform: rotate(140deg);
+  -webkit-transform: rotate(140deg);
+  -o-transform: rotate(140deg);
+  -ms-transform: rotate(140deg);
+  transform: rotate(140deg);
+}
+.eyebrow_200 {
+  top: 68px;
+  right: 30px;
+  -moz-transform: rotate(190deg);
+  -webkit-transform: rotate(190deg);
+  -o-transform: rotate(190deg);
+  -ms-transform: rotate(190deg);
+  transform: rotate(190deg);
+}
+.eyebrow:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 5px;
+  left: 0;
+  margin: auto;
+  content: "";
+  width: 100%;
+  height: 24px;
+  background-color: #6E440B;
+  border-radius: 100%;
+}
+.eyebrow:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 24px;
+  left: 0;
+  margin: auto;
+  content: "";
+  width: calc(100% - 2px);
+  height: 100%;
+  background-color: rgb(250, 200, 62);
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 4px 4px -4px;
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: scale(1.6);
+  transform: scale(1.6);
+}
+.wink-eyes {
+  position: relative;
+  text-align: center;
+  z-index: 20;
+  height: 40px;
+  margin-top: -5px;
+}
+.wink-eye {
+  position: absolute;
+  width: 25px;
+  height: 35px;
+  top: 0px;
+  left: 58px;
+  background-color: rgb(166, 103, 32);
+  -moz-border-radius: 15px/20px;
+  -webkit-border-radius: 15px/20px;
+  border-radius: 15px/20px;
+  -moz-box-shadow: inset 0 3px 8px 4px rgb(106, 65, 21);
+  -webkit-box-shadow: inset 0 3px 8px 4px rgb(106, 65, 21);
+  box-shadow: inset 0 3px 8px 4px rgb(106, 65, 21);
+}
+.wink-eye-right {
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  left: 110px;
+  top: 9px;
+  border-radius: 50%;
+  background-color: rgb(166, 103, 32);
+  -moz-transform: rotate(5deg) scale(0.7);
+  -webkit-transform: rotate(5deg) scale(0.7);
+  -o-transform: rotate(5deg) scale(0.7);
+  -ms-transform: rotate(5deg) scale(0.7);
+  transform: rotate(5deg) scale(0.7);
+  -moz-box-shadow: inset 0 3px 4px 0 rgb(106, 65, 21);
+  -webkit-box-shadow: inset 0 3px 4px 0 rgb(106, 65, 21);
+  box-shadow: inset 0 3px 4px 0 rgb(106, 65, 21);
+}
+.wink-eye-right::before {
+  content: '';
+  position: absolute;
+  left: -2px;
+  bottom: -5px;
+  width: 12px;
+  height: 12px;
+  background-color: rgb(166, 103, 32);
+  border-radius: 50%;
+  -moz-box-shadow: inset 5px 0 3px 0 rgb(106, 65, 21);
+  -webkit-box-shadow: inset 5px 0 3px 0 rgb(106, 65, 21);
+  box-shadow: inset 5px 0 3px 0 rgb(106, 65, 21);
+}
+.wink-eye-right::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  bottom: -2px;
+  width: 20px;
+  height: 5px;
+  background-color: rgb(166, 103, 32);
+  -moz-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-14deg);
+  -moz-box-shadow: inset 0 0 0 0 rgb(166, 103, 32);
+  -webkit-box-shadow: inset 0 0 0 0 rgb(166, 103, 32);
+  box-shadow: inset 0 0 1px 0 rgb(166, 103, 32);
+}
+.wink-eye-right-deep {
+  top: 10px;
+  -moz-transform: rotate(5deg) scale(1);
+  -webkit-transform: rotate(5deg) scale(1);
+  -o-transform: rotate(5deg) scale(1.1);
+  -ms-transform: rotate(5deg) scale(1.1);
+  transform: rotate(5deg) scale(1.1);
+  background-color: rgb(106, 65, 21);
+}
+.wink-eye-right-deep::before {
+  background-color: rgb(106, 65, 21);
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.wink-eye-right-deep::after {
+  background-color: rgb(106, 65, 21);
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.wink-mouth-container {
+  height: 30px;
+  width: 60px;
+  margin: 0 auto;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.wink-mouth {
+  position: relative;
+  width: 60px;
+  height: 44px;
+  margin: 0 auto;
+  top: -20px;
+  border-radius: 50%;
+  background-color: rgb(166, 103, 32);
+  -moz-box-shadow: inset 0 3px 8px 4px rgb(106, 65, 21);
+  -webkit-box-shadow: inset 0 3px 8px 4px rgb(106, 65, 21);
+  box-shadow: inset 0 3px 8px 4px rgb(106, 65, 21);
+}
+.wink-mouth::before {
+  content: '';
+  width: 66px;
+  height: 26px;
+  border-radius: 33px/13px;
+  position: absolute;
+  top: 0;
+  left: -2px;
+  background-color: rgb(250, 200, 62);
+  -moz-box-shadow: 0 3px 8px 4px rgb(106, 65, 21);
+  -webkit-box-shadow: 0 3px 8px 4px rgb(106, 65, 21);
+  box-shadow: 0 3px 5px 0 rgb(106, 65, 21);
+}

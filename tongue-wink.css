@@ -1,0 +1,20 @@
+.tongue-wink-eyes {
+  margin-top: 60px;
+}
+.tongue-wink-eye {
+  float: left;
+  margin-left: 40px;
+  margin-top: 25px;
+}
+.tongue-wink-eye-right {
+  float: left;
+  margin-left: 25px;
+}
+.tongue-wink-mouth {
+  position: relative;
+}
+.tongue-container {
+  position: absolute;
+  top: 16px;
+  left: 82px;
+}
